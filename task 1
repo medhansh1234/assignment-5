@@ -1,0 +1,9 @@
+
+try :
+
+    result = {'ram': 89, 'shyam':90, 'rohan':76, 'mohan' :92}
+    key = input("Enter the student's name :")
+    marks = result[key]
+    print(key,"'s marks :",marks)
+except KeyError :
+    print("Student not found")
